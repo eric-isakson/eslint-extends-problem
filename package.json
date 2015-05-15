@@ -1,0 +1,20 @@
+{
+  "name": "eslint-extends-problem",
+  "version": "1.0.0",
+  "description": "Demonstrate an infinite recursion problem I am seeing using extends for a shared configuration",
+  "main": "./lib/main.js",
+  "scripts": {
+    "test": "node ./node_modules/eslint/bin/eslint.js lib"
+  },
+  "keywords": [
+    "eslint"
+  ],
+  "author": "Eric Isakson",
+  "contributors": [
+    "Eric Isakosn <Eric.Isakson@sas.com>"
+  ],
+  "dependencies": {
+    "eslint": "^0.21.0",
+    "eslint-config-nightmare-mode": "^0.0.2"
+  }
+}
